@@ -1,0 +1,46 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+
+div {
+    background-color: white;
+    padding: 40px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+input#emailInput {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box; /* Added to include padding in the total width and height */
+}
+
+button#loginBtn {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: rgb(86, 224, 86);
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button#loginBtn:hover {
+    background-color: rgb(19, 147, 105);
+}
+
+p#message {
+    margin-top: 20px;
+}
