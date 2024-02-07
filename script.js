@@ -1,3 +1,15 @@
+if (localStorage.getItem('userAuthenticated') !== 'true') {
+    window.location.href = '/login.html'; // Redirigez l'utilisateur vers la page de login
+}
+
+const deconnexionBtn = document.getElementById('deconnexion'); // Assurez-vous d'avoir un bouton avec cet id dans votre HTML
+
+deconnexionBtn.addEventListener('click', function() {
+    localStorage.removeItem('userAuthenticated'); // Efface l'indicateur d'authentification
+    window.location.href = '/login.html'; // Redirige l'utilisateur vers la page de login
+});
+
+
 document.addEventListener('DOMContentLoaded', function() {
     const ajouterBtn = document.getElementById('ajouter');
     const nomProduitInput = document.getElementById('nom-produit');
