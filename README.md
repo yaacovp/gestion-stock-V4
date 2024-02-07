@@ -23,4 +23,4 @@ Pour utiliser cette application, suivez ces étapes :
 1. Clonez le dépôt sur votre machine locale en utilisant :
 
 ```bash
-git clone URL_DU_DEPOT
+git clone https://github.com/yaacovp/gestion-stock-V4.git
